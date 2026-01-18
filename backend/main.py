@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-from .graph import run_chat_workflow
+from graph import run_chat_workflow
 import os
 
 app = FastAPI(title="Study Guidance Bot")

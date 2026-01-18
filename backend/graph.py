@@ -1,7 +1,7 @@
 from langgraph.graph import StateGraph, END
 from typing import TypedDict, Optional, List
-from .ai_agent import ai_agent
-from .db import save_study_plan
+from ai_agent import ai_agent
+from db import save_study_plan
 
 class AgentState(TypedDict):
     messages: List[str]
